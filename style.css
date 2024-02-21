@@ -1,0 +1,70 @@
+/* style.css */
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    min-height: inherit;
+    padding: 2rem;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 1.8rem;
+    margin: 1rem auto;
+    color: #ff0000; /* Italian flag color: red */
+    max-width: 65vw;
+}
+
+/* Image styles */
+img {
+    max-width: 25rem;
+    height: auto;
+    margin: 1rem auto;
+}
+
+/* Link styles */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #008000; /* Italian flag color: green */
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #008000; /* Italian flag color: green */
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #008000; /* Italian flag color: green */
+    color: #fff;
+}
+
+/* Media Query for responsiveness */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+}
